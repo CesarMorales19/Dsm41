@@ -11,7 +11,7 @@ class PostsTableSeeder extends Seeder
     public function run()
     {
         // Crear una instancia de Faker
-        $faker = Faker::create();
+        $faker = Factory::create();
 
         // Generar 50 posts ficticios
         foreach (range(1, 50) as $index) {
